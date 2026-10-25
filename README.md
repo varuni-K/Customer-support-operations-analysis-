@@ -33,15 +33,14 @@ A customer support team handles billing issues, cancellations, login problems an
 
 ## Dashboard
 
-### Page 1: Overview
+**Page 1: Overview**
 
-![Dashboard Page 1 - Overview](./powerbi/dashboard_page1.png)
+![Dashboard page 1](powerbi/dashboard_page1.png)
 
-### Page 2: SLA and Customer Satisfaction
+**Page 2: SLA and customer satisfaction**
 
-![Dashboard Page 2 - SLA and Customer Satisfaction](./powerbi/dashboard_page2.png)
+![Dashboard page 2](powerbi/dashboard_page2.png)
 
-**Interactive dashboard:** Open `powerbi/support_dashboard.pbix` using Power BI Desktop.
 
 ## What is in this repository
 
