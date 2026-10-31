@@ -44,13 +44,15 @@ A customer support team handles billing issues, cancellations, login problems an
 
 ## What is in this repository
 
-| Folder | What is inside |
+| File | What it is |
 |---|---|
-| `data/` | `cleaned_tickets.csv`: the cleaned synthetic dataset |
-| `excel/` | `support_tickets_analysis.xlsx`: raw data, cleaned data, PivotTables and the data quality log |
-| `sql/` | `support_analysis_queries.sql`: 7 queries with comments, plus screenshots of the results |
-| `powerbi/` | `support_dashboard.pbix`: the 2-page dashboard, plus screenshots |
-| `business-analysis/` | `Customer_Support_Analysis_Report.pdf`: the full business analysis report |
+| `cleaned_tickets.csv` | The cleaned dataset |
+| `support_tickets_analysis.xlsx` | Excel work |
+| `support_analysis_queries.sql` | The 7 SQL queries |
+| `q1_result.png` to `q7_result.png` | SQL result screenshots |
+| `support_dashboard.pbix` | Power BI dashboard |
+| `dashboard_page1.png`, `dashboard_page2.png` | Dashboard screenshots |
+| `Customer_Support_Analysis_Report.pdf` | Full report |
 
 ## How I did it
 
@@ -78,9 +80,9 @@ A customer support team handles billing issues, cancellations, login problems an
 
 ## How to explore the project
 
-- **Dashboard:** open `powerbi/support_dashboard.pbix` in Power BI Desktop (Windows).
-- **SQL:** load `data/cleaned_tickets.csv` into a MySQL table called `tickets` and run `sql/support_analysis_queries.sql`.
-- **Excel:** open `excel/support_tickets_analysis.xlsx` in Excel or LibreOffice.
+- **Dashboard:** open `support_dashboard.pbix` in Power BI Desktop (Windows).
+- **SQL:** load `cleaned_tickets.csv` into a MySQL table called `tickets` and run `support_analysis_queries.sql`.
+- **Excel:** open `support_tickets_analysis.xlsx` in Excel or LibreOffice.
 
 ## Limitations
 
